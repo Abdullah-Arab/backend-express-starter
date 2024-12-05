@@ -29,6 +29,7 @@ To get started with this project, follow these steps:
 
     example .env file:
     ```sh
+    PROJECT_NAME=starter
     PORT=3000
     DATABASE_URL=postgres://username:password@localhost:5432/database
     ```
