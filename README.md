@@ -32,7 +32,7 @@ To get started with this project, follow these steps:
     PORT=3000
     DATABASE_URL=postgres://username:password@localhost:5432/database
     ```
-    
+
 
 <!-- add .env example and run database migrations -->
 4. Run database migrations:
@@ -52,6 +52,13 @@ To get started with this project, follow these steps:
 - `npm run dev`: Run the development server.
 - `npm run build`: Build the project.
 - `npm start`: Start the production server.
+
+## Future Plans
+- Add user authentication
+- Add role based access control
+
+## Contributing
+i would like to add user authentication, authorization and role based access control to this project. If you like the project and would like to contribute, feel free to fork the repository and submit a pull request, I would be happy to review and merge it.
 
 ## License
 
