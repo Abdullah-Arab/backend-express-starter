@@ -27,10 +27,25 @@ To get started with this project, follow these steps:
 3. Set up environment variables:
     Create a `.env` file in the root directory and add your environment variables.
 
-4. Run the development server:
+    example .env file:
+    ```sh
+    PORT=3000
+    DATABASE_URL=postgres://username:password@localhost:5432/database
+    ```
+    
+
+<!-- add .env example and run database migrations -->
+4. Run database migrations:
+    ```sh
+    npm run generate
+    npm run migrate
+    ```
+5. Start the development server:
     ```sh
     npm run dev
     ```
+
+
 
 ## Scripts
 
