@@ -45,6 +45,14 @@ To get started with this project, follow these steps:
     npm run dev
     ```
 
+## CI/CD
+in the root directory of the project, there is a `.github[DELETEME]` folder that contains the github actions workflow file. This file is responsible for running the tests and deploying the application to heroku.
+
+edit the `.github[DELETEME]` folder name to `.github` to enable the workflow. 
+
+to use this workflow, you need to create a new github repository and push the project to the repository. Then, go to the actions tab in the github repository and enable the workflow.
+
+
 
 
 ## Scripts
